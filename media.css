@@ -30,7 +30,6 @@
     top: -500px;
     display: flex;
     justify-content: center;
-    padding: 50px 0;
     z-index: 500;
     overflow: hidden;
   }
@@ -46,18 +45,18 @@
   }
   .heading {
     width: 100%;
-    position: absolute;
-    display: grid;
-    place-items: center;
-    text-align: center;
+    height: 100vh;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
   .heading h2 {
-    font-size: 25px;
+    font-size: 40px;
     color: #fff;
-    background-color: rgba(0, 0, 0, 0.2);
   }
   .heading p {
-    font-size: 14px;
+    font-size: 20px;
     padding-bottom: 10px;
     color: whitesmoke;
   }
