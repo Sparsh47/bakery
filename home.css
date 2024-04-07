@@ -340,6 +340,12 @@
   overflow: hidden;
   margin: 0px;
 }
+
+.carousel-cell img {
+  object-fit: contain;
+  object-position: center;
+}
+
 .Gallery a {
   text-decoration: none;
   font-size: 25px;
