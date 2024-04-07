@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital@1&display=swap" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="icon" href="images/logo.png">
+    
+    <script src="java.min.js"></script>
+    <link rel="icon" href="logo.png">
+    <link rel="stylesheet" href="css/all.css">
+    <link rel="stylesheet" href="home.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="flickity.css">
+    <link rel="stylesheet" href="media.css">
+    <title>Duggus baker n decor</title>
+</head>
+
+<body>
+
+    <section class="Navbar-Menu" id="Navbar-Menu-Id">
+        <div class="menu">
+            <div class="leftside">
+                <img src="images/logo.png" alt="logo.png">
+            </div>
+            <div class="rightside" id="rightside">
+                <nav class="Icons">
+                    <a href="#Navbar-Menu-Id" class="navicon">Home</a>
+                    <a href="#Second-sec-id" class="navicon">About Us</a>
+                    <a href="./blog.html" class="navicon">Blogs</a>
+                    <a href="#menu-id" class="navicon">Menu</a>
+                    <a href="#Gallery-Id" class="navicon">Gallery</a>
+                    <a href="#Feedback" class="navicon">Feedback</a>
+                    <a href="#footerid" class="navicon">Contact</a>
+                    <i class="fas fa-times-circle" id="cross" onclick="Hidemenu()"></i>
+                </nav>
+            </div>
+            <div class="menubar">
+                <div class="line" onclick="Togglebar()"></div>
+                <div class="line" onclick="Togglebar()"></div>
+                <div class="line" onclick="Togglebar()"></div>
+            </div>
+        </div>
+        <div class="heading" >
+            <h2>Duggus baker n decor</h2>
+            <p>Where Sweetness Meets Style</p>
+            <a href="#Second-sec-id">Get Started</a>
+        </div>
+        <div class="Scroll-Arrow" id="topbutton">
+            <a href="#"><i class="fal fa-arrow-up"></i></a>
+         </div>
+    </section>
+
+    <section class="second-Sec" id="Second-sec-id">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-md-6 mx-auto second-sec">
+                    <h1 id="about">About Us</h1>
+                    <p><span class="semi">"</span>At Duggu's Bakers & Decor, we're all about making your events pop with sweetness and style. We are really passionate about Baking stylish, costomized cakes, along with decorating the venue. . But hey, I've got a soft spot for baking too, so we whip up some seriously tasty treats in our bakery.<span class="semi">"</span></p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="MenuSection" id="menu-id">
+        <h1>OUR SPECIALTIES</h1>
+        <p>Cakes</p>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-3 col-md-4 col-sm-6 col-12 mx-auto Bakery-menu">
+                    <img src="https://cdn.quicksell.co/-MMpSad9FgzsoMWQHl8T/products/-NNl7IgkSndDhKU3FD13.jpg" alt="pine-apple"
+                        class="menu-img">
+                    <h3>Pine Apple Cake</h3>
+                    <h6>$5.00<span id="Weight"> Per Kg</span></h6>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 col-12 mx-auto Bakery-menu">
+                    <img src="https://www.myuniqueshop.in/cdn/shop/files/Butterscotch.jpg?v=1690795121" alt=""
+                        class="menu-img">
+                    <h3>Butter Scotch cake</h3>
+                    <h6>$20.00<span id="Weight"> 2.5 Pound</span></h6>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 col-12 mx-auto Bakery-menu">
+
+                    <img src="https://www.greatestbakery.in/wp-content/uploads/2023/05/Orange-Cake.jpg" alt=""
+                        class="menu-img">
+                    <h3>Orange Cake</h3>
+                    <h6>$5.00<span id="Weight">Per Bucket</span></h6>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 col-12 mx-auto Bakery-menu">
+
+                    <img src="https://i.ytimg.com/vi/dh6GgbgQ5j0/maxresdefault.jpg" alt=""
+                        class="menu-img">
+                    <h3>Fresh Fruit Cake</h3>
+                    <h6>$35.00<span id="Weight">Per Kg</span></h6>
+                </div>
+
+
+                <div class="col-lg-3 col-md-4 col-sm-6 col-12 mx-auto Bakery-menu">
+                    <img src="https://www.emborg.com/app/uploads/2023/06/1200x900px_Blueberry_Cheesecake.png" alt=""
+                        class="menu-img">
+                    <h3>Blueberry Cheese Cake</h3>
+                    <h6>$8.00<span id="Weight"> Per Kg</span></h6>
+                </div>
+
+                <div class="col-lg-3 col-md-4 col-sm-6 col-12 mx-auto Bakery-menu">
+                    <img src="https://floralmall.in/wp-content/uploads/2023/02/strawberry-cake.jpg" alt=""
+                        class="menu-img">
+                    <h3>Strawberry Cake</h3>
+                    <h6>$5.00<span id="Weight"> Per Box</span></h6>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 col-12 mx-auto Bakery-menu">
+                    <img src="https://www.generalmillsindiabfs.in/wp-content/uploads/2022/04/mango-fresh-cake.jpg" alt=""
+                        class="menu-img">
+                    <h3>Mango cake</h3>
+                    <h6>$15.00<span id="Weight"> 2.5 Pound</span></h6>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 col-12 mx-auto Bakery-menu">
+
+                    <img src="https://assets.winni.in/product/primary/2022/9/73478.jpeg?dpr=1&w=500" alt=""
+                        class="menu-img">
+                    <h3>Mix Fruit Cake</h3>
+                    <h6>$2.00<span id="Weight"> Per Pack</span></h6>
+                </div>
+
+                <div class="col-lg-3 col-md-4 col-sm-6 col-12 mx-auto Bakery-menu">
+                    <img src="https://assets.flowersnfruits.com/uploads/product-pics/1687851990_8721.png" alt=""
+                        class="menu-img">
+                    <h3>Vanilla Cake</h3>
+                    <h6>$2.00<span id="Weight"> Per Pack</span></h6>
+                </div>
+
+                <div class="col-lg-3 col-md-4 col-sm-6 col-12 mx-auto Bakery-menu">
+                    <img src="https://amintiri.in/cdn/shop/products/diwalirasmalai.jpg?v=1613118681&width=1946"
+                        alt="" class="menu-img">
+                    <h3>Rasmalai Cake</h3>
+                    <h6>$50.00<span id="Weight"> Per Kg</span></h6>
+                </div>
+
+                <div class="col-lg-3 col-md-4 col-sm-6 col-12 mx-auto Bakery-menu">
+                    <img src="https://vjcooks.com/wp-content/uploads/2021/07/Vjcooks_chocmoussecake13.jpg" alt=""
+                        class="menu-img">
+                    <h3>Choco Mousse Cake</h3>
+                    <h6>$4.00<span id="Weight"> per Dozen</span></h6>
+                </div>
+
+                <div class="col-lg-3 col-md-4 col-sm-6 col-12 mx-auto Bakery-menu">
+                    <img src="https://www.cakehut.in/image/cache/catalog/2021%20cake%20photos/Chocolate%20Truffle-1707x1493.jpg.webp" alt="" class="menu-img">
+                    <h3>Choco Truffle Cake</h3>
+                    <h6>$5.00<span id="Weight"> Per liter</span></h6>
+                </div>
+                    
+                <div class="col-lg-3 col-md-4 col-sm-6 col-12 mx-auto Bakery-menu">
+                    <img src="https://realbakers.in/wp-content/uploads/2017/08/CHOCO-VANILLA.jpg" alt="" class="menu-img">
+                    <h3>Choco Vanilla Cake</h3>
+                    <h6>$5.00<span id="Weight"> Per liter</span></h6>
+                </div>
+
+                <div class="col-lg-3 col-md-4 col-sm-6 col-12 mx-auto Bakery-menu">
+                    <img src="https://bkmedia.bakingo.com/sq-round-shaped-choco-chip-cake-cake0647choc-A_0.jpg" alt="" class="menu-img">
+                    <h3>Choco Chip Cake</h3>
+                    <h6>$5.00<span id="Weight"> Per liter</span></h6>
+                </div>
+
+                <div class="col-lg-3 col-md-4 col-sm-6 col-12 mx-auto Bakery-menu">
+                    <img src="https://cakehouseonline.com/wp-content/uploads/2020/03/IMG_8883.jpeg" alt="" class="menu-img">
+                    <h3>Dark Choco Chip Cake</h3>
+                    <h6>$5.00<span id="Weight"> Per liter</span></h6>
+                </div>
+
+                <div class="col-lg-3 col-md-4 col-sm-6 col-12 mx-auto Bakery-menu">
+                    <img src="https://www.fnp.com/images/pr/l/v20221205202048/black-forest-cake-half-kg_1.jpg" alt="" class="menu-img">
+                    <h3>Black Forest Cake</h3>
+                    <h6>$5.00<span id="Weight"> Per liter</span></h6>
+                </div>
+
+                <div class="col-lg-3 col-md-4 col-sm-6 col-12 mx-auto Bakery-menu">
+                    <img src="https://flowera.in/wp-content/uploads/2023/09/Delicious-white-forest-cake.jpg" alt="" class="menu-img">
+                    <h3>White Forest Cake</h3>
+                    <h6>$5.00<span id="Weight"> Per liter</span></h6>
+                </div>
+
+                <div class="col-lg-3 col-md-4 col-sm-6 col-12 mx-auto Bakery-menu">
+                    <img src="https://bakewithshivesh.com/wp-content/uploads/2022/09/IMG_0442-scaled.jpg" alt="" class="menu-img">
+                    <h3>Choco Marble Cake</h3>
+                    <h6>$5.00<span id="Weight"> Per liter</span></h6>
+                </div>
+
+                <div class="col-lg-3 col-md-4 col-sm-6 col-12 mx-auto Bakery-menu">
+                    <img src="https://www.bakels.in/wp-content/uploads/sites/15/2019/10/cake.jpg" alt="" class="menu-img">
+                    <h3>Choco Delight Cake</h3>
+                    <h6>$5.00<span id="Weight"> Per liter</span></h6>
+                </div>
+
+                <div class="col-lg-3 col-md-4 col-sm-6 col-12 mx-auto Bakery-menu">
+                    <img src="https://letsbakelovebysara.com/cdn/shop/products/MG_9483final_2000x.jpg?v=1595710071" alt="" class="menu-img">
+                    <h3>Belgian Cake</h3>
+                    <h6>$5.00<span id="Weight"> Per liter</span></h6>
+                </div>
+
+                <div class="col-lg-3 col-md-4 col-sm-6 col-12 mx-auto Bakery-menu">
+                    <img src="https://govindsweets.com/wp-content/uploads/2023/06/cassata-cake.jpg" alt="" class="menu-img">
+                    <h3>Cassata Cake</h3>
+                    <h6>$5.00<span id="Weight"> Per liter</span></h6>
+                </div>
+
+                <div class="col-lg-3 col-md-4 col-sm-6 col-12 mx-auto Bakery-menu">
+                    <img src="https://food-images.files.bbci.co.uk/food/recipes/chocolate_and_hazelnut_38207_16x9.jpg" alt="" class="menu-img">
+                    <h3>Hazelnut Cake</h3>
+                    <h6>$5.00<span id="Weight"> Per liter</span></h6>
+                </div>
+
+                <div class="col-lg-3 col-md-4 col-sm-6 col-12 mx-auto Bakery-menu">
+                    <img src="https://cakiyo.com/_next/image?url=https%3A%2F%2Fadmin.cakiyo.com%2Fstorage%2F3119%2Fheart_shape_redvelvet_cake.jpg&w=3840&q=75" alt="" class="menu-img">
+                    <h3>Red Velvet Heart Shape Cake</h3>
+                    <h6>$5.00<span id="Weight"> Per liter</span></h6>
+                </div>
+            </div>
+        </div>
+        
+        <p>Pastries</p>
+        <br/>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-3 col-md-4 col-sm-6 col-12 mx-auto Bakery-menu">
+                    <img src="https://www.allrecipes.com/thmb/gDJ1S6ETLfWGyyWw_4A_IGhvDYE=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/9295_red-velvet-cake_ddmfs_4x3_1129-a8ab17b825e3464a9a53ceeda54ff461.jpg" alt=""
+                        class="menu-img">
+                    <h3>Red Velvet Pastry</h3>
+                    <h6>$5.00<span id="Weight"> Per Kg</span></h6>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 col-12 mx-auto Bakery-menu">
+                    <img src="https://bakejunction.com/wp-content/uploads/2021/07/ai0a0205_H_E_lessBlaForstPastry-1.jpg" alt=""
+                        class="menu-img">
+                    <h3>Black Forest Pastry</h3>
+                    <h6>$20.00<span id="Weight"> 2.5 Pound</span></h6>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 col-12 mx-auto Bakery-menu">
+
+                    <img src="https://merakcakes.com/cdn/shop/files/pineapplepastry.jpg?v=1690950898" alt=""
+                        class="menu-img">
+                    <h3>Pine Apple Pastry</h3>
+                    <h6>$5.00<span id="Weight">Per Bucket</span></h6>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 col-12 mx-auto Bakery-menu">
+
+                    <img src="https://thecococompany.com/cdn/shop/products/Chocolate-Truffle-Pastries_grande.jpg?v=1577958105" alt=""
+                        class="menu-img">
+                    <h3>Choco Truffle Pastry</h3>
+                    <h6>$35.00<span id="Weight">Per Kg</span></h6>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 col-12 mx-auto Bakery-menu">
+                    <img src="https://assets.winni.in/product/primary/2022/10/76959.jpeg?dpr=1&w=1000" alt=""
+                        class="menu-img">
+                    <h3>Choco Chip Pastry</h3>
+                    <h6>$8.00<span id="Weight"> Per Kg</span></h6>
+                </div>
+
+                <div class="col-lg-3 col-md-4 col-sm-6 col-12 mx-auto Bakery-menu">
+                    <img src="https://www.gardenbakery.in/wp-content/uploads/2020/12/fresh-fruit-pastry-1.jpg" alt=""
+                        class="menu-img">
+                    <h3>Fresh Fruit Pastry</h3>
+                    <h6>$5.00<span id="Weight"> Per Box</span></h6>
+                </div>
+            </div>
+        </div>
+        <p>Other</p>
+        <br/>
+            <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-3 col-md-4 col-sm-6 col-12 mx-auto Bakery-menu">
+                    <img src="https://thecococompany.com/cdn/shop/products/Veg-Patty_grande.jpg?v=1578043022" alt=""
+                        class="menu-img">
+                    <h3>Veg Patties</h3>
+                    <h6>$5.00<span id="Weight"> Per Kg</span></h6>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 col-12 mx-auto Bakery-menu">
+                    <img src="https://thecococompany.com/cdn/shop/products/PANEER_PUFF_1024x1024.jpg?v=1580715207" alt=""
+                        class="menu-img">
+                    <h3>Paneer Patties</h3>
+                    <h6>$20.00<span id="Weight"> 2.5 Pound</span></h6>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 col-12 mx-auto Bakery-menu">
+
+                    <img src="https://m.media-amazon.com/images/I/41dfntaex7L._AC_UF1000,1000_QL80_.jpg" alt=""
+                        class="menu-img">
+                    <h3>Cream Roll</h3>
+                    <h6>$5.00<span id="Weight">Per Bucket</span></h6>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 col-12 mx-auto Bakery-menu">
+
+                    <img src="https://www.elloras.in/cdn/shop/products/135-Chocolate-Cream-Roll.jpg?v=1662308578" alt=""
+                        class="menu-img">
+                    <h3>Hazelnut Cream Roll</h3>
+                    <h6>$35.00<span id="Weight">Per Kg</span></h6>
+                </div>
+            </div>
+    </section>
+
+<!-- <section class="Feedback" id="Feedback">
+    <div class="feedback-background">
+        <h1>Feedback</h1>
+        <div class="center-heading">
+        <p>Have feedback about our products or service<br> Please contact Baker's Kitchen directly</p>
+        <a href="C:\Users\acs\Desktop\new\feedback.html">Send Feedback Now</a>   
+        </div> 
+    </div>
+</section> -->
+
+
+<section class="footer" id="footerid">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-4 col-md-4 col-12 mx-auto">
+                <h3>About Us</h3>
+                <p>Step into our bakery and get ready to drool! We've got everything from classic cakes to sweet cupcakes that'll have your taste buds doing a happy dance. Each treat is made with lots of love, which is of the ingredient. Whether you're celebrating a birthday or just treating yourself , our goodies are sure to hit the spot.</p>
+                <!-- <hr class="w-25 mx-auto text-dark">
+                <a href="https://www.facebook.com/" target="blank"><i class="fab fa-facebook-f"></i></a>
+                <a href="https://twitter.com" target="blank"><i class="fab fa-twitter"></i></a>
+                <a href="https://gmail.google.com" target="blank"><i class="fab fa-google-plus-g"></i></a>
+                <a href="https://www.pinterest.com/" target="blank"><i class="fab fa-pinterest"></i></a>
+                <a href="https://instagram.com/" target="blank"><i class="fab fa-instagram"></i></a> -->
+            </div>
+            <div class="col-lg-4 col-md-4 col-12 mx-auto">
+                <h3>Contact Us</h3>
+                <p>Address: 206, Karkardooma Rd, opp. to A Block Road, Ram Vihar, Surajmal Vihar, Delhi, 110092</p>
+                <hr class="w-25 mx-auto text-dark">
+                Phone: (+91) 8447322887, (+91) 9582240025</p>      
+            </div>
+            <div class="col-lg-4 col-md-4 col-12 mx-auto">
+                <h3>Location</h3>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3501.0197640082706!2d77.30437297604651!3d28.65912688287133!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cfb6b0b5534d7%3A0x2020ecdc72c95b33!2s206%2C%20Karkardooma%20Rd%2C%20opp.%20to%20A%20Block%20Road%2C%20Ram%20Vihar%2C%20Surajmal%20Vihar%2C%20Delhi%2C%20110092!5e0!3m2!1sen!2sin!4v1712434141027!5m2!1sen!2sin" width="400" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+    </div>
+    <hr class="w-50 mt-5 mx-auto text-dark">
+    <div class="container last-footer" >
+        <div class="row">
+            <div class="col-lg-4 col-md-4 col-12 mx-auto Copyright">
+                <h4 id="last-logo">Duggus baker n decor</h4>
+            </div>
+            <div class="col-lg-4 col-md-4 col-12 mx-auto Copyright">
+                <h4><span id="Name">Duggus baker n decor</span> © Privacy Policy</h4>
+            </div>
+            <!-- <div class="col-lg-4 col-md-4 col-12 mx-auto Copyright">
+                <h4>Design & Developed by <span id="Name">MUDASSIR UDDIN</span></h3>
+            </div> -->
+    </div>
+</section>
+
+    
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"
+        integrity="sha384-W8fXfP3gkOKtndU4JGtKDvXbO53Wy8SZCQHczT5FMiiqmQfUpWbYdTil/SxwZgAN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.min.js"
+        integrity="sha384-skAcpIdS7UcVUC05LJ9Dxay8AXcDYfBJqt1CJ85S/CFujBsIzCIv+l9liuYLaMQ/"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
