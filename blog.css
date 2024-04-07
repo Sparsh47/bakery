@@ -5,8 +5,27 @@
   font-family: "Fira Sans", sans-serif;
 }
 
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background: #eee;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #272727;
+}
+
 a {
   text-decoration: none;
+}
+
+body {
+  background: url("./images/blog.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .back {
@@ -56,15 +75,18 @@ ul {
 .blog-box {
   width: 350px;
   height: 480px;
-  background-color: #fff;
-  border: 1px sold #ececec;
   margin: 20px;
   border: 1px solid rgba(0, 0, 0, 0.05);
+  background-color: rgba(255, 255, 255, 0.3);
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
 }
 
 .blog-img {
   width: 100%;
   height: auto;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
 }
 
 .blog-img img {
@@ -72,6 +94,8 @@ ul {
   height: 100%;
   object-fit: cover;
   object-position: center;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
 }
 
 .blog-text {
